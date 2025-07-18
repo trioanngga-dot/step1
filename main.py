@@ -6,7 +6,7 @@ import threading
 import os
 from playwright.async_api import async_playwright
 
-TOKEN = "ISI_TOKEN_BOT_MU"
+TOKEN = "7801697140:AAEk4OvlASZWcdZFYijq9RzzNvalZSHhLe8"
 
 app = Flask(__name__)
 
