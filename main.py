@@ -1,12 +1,12 @@
 import asyncio
+import os
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 from flask import Flask
 import threading
-import os
 from playwright.async_api import async_playwright
 
-TOKEN = "7801697140:AAEk4OvlASZWcdZFYijq9RzzNvalZSHhLe8"
+TOKEN = os.getenv("TOKEN")
 
 app = Flask(__name__)
 
